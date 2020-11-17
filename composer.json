@@ -15,6 +15,21 @@
             "homepage": "https://symfony.com/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "arcontact/smsapi-notifier",
+                "version": "5.1.8",
+                "type": "symfony-bridge",
+                "source": {
+                    "url": "https://github.com/arcontact/smsapi-notifier.git",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
+        }
+    ],
     "require": {
         "php": ">=7.2.5",
         "symfony/http-client": "^4.3|^5.0",
